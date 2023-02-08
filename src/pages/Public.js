@@ -2,7 +2,9 @@
 
 import MainComponent from "../mainComponent/MainCompoent";
 
-const Public = () =>{
+const Public = ({privateState}) =>{
+
+        
 
     return(
         <MainComponent privateProps={false}/>

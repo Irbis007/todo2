@@ -1,12 +1,12 @@
 
 
-import MainComponent from "../mainComponent/MainCompoent";
+import MainComponent from "../src/mainComponent/MainCompoent";
 
 
 const Private = () =>{
 
     return (
-        <MainComponent privateProps={true}/>
+        <MainComponent private={true}/>
     )
 }
 
