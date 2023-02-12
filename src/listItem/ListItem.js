@@ -202,7 +202,7 @@ class ListItem extends Component{
                     <li className='item'>
 
                         <button className="add__list-links" style={styles} onClick={this.onAddLinks}><CgMathPlus/></button>
-                        <button className='edit list__item-btn'
+                        {/* <button className='edit list__item-btn'
                             data-toggle='disabled'
                             style={{display: editDisplay}}
                             onClick={onToggleProp}
@@ -211,7 +211,7 @@ class ListItem extends Component{
                             data-toggle='disabled'
                             style={{display: saveDisplay}}
                             onClick={this.onChangeData}
-                        >Save</button>
+                        >Save</button> */}
                         <button className="delete list__item-btn"
                             onClick={deleteItem}
                         >

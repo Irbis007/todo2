@@ -1,6 +1,6 @@
 
 
-import MainComponent from "../src/mainComponent/MainCompoent";
+import MainComponent from "../mainComponent/MainCompoent";
 
 
 const Private = () =>{

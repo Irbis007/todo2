@@ -78,10 +78,20 @@ li label{
     font-size: 9px;
     top: -5px;
     left: 10px;
-    background: #fff;
+    background: transparent;
 }
 
 
 li input{
-    background: #fff;
+    background: #f3f3f3;
+    border: none;
+    transition: all .3s;
+}
+
+
+.black__theme li input{
+    background-color: rgb(73, 73, 73);
+}
+.black__theme li input:disabled{
+    background-color: rgb(54, 54, 54);
 }

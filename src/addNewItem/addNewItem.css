@@ -7,7 +7,6 @@
 .add__item .list{
     width: 100%;
     padding-top: 20px;
-    border-top: 1px solid gret;
     display: flex;
     gap: 5px;
 }
@@ -24,7 +23,6 @@ ul li {
 }
 
 .list .item input, .data__sublist input{
-    border: 1px solid rgb(209, 209, 209);
     height: 30px;
     width: 240px;
     border-radius: 5px;
